@@ -10,6 +10,7 @@ import 'package:tugasmandiripcs/Isi/isiprofileindo/bahasa.dart';
 import 'package:tugasmandiripcs/Isi/isiprofileindo/biodataprofile.dart';
 import 'package:tugasmandiripcs/Isi/isiprofileindo/hubungi.dart';
 import 'package:tugasmandiripcs/Isi/isiprofileindo/notifikasi.dart';
+import 'package:tugasmandiripcs/Landing/landing.dart';
 import 'package:tugasmandiripcs/komponenutama/A.dart';
 import 'package:tugasmandiripcs/komponenutama/Aenglish.dart';
 import 'package:tugasmandiripcs/komponenutama/b.dart';
@@ -51,7 +52,8 @@ case '/splash':
         return SlideRightRoute(widget: Splashscreen()); 
 case '/b1':
         return SlideRightRoute(widget: b1()); 
-
+case '/landingpage':
+        return SlideRightRoute(widget: LandingPage()); 
 
       default:
         return _kesalahanroute();

@@ -1,5 +1,12 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:tugasmandiripcs/komponenutama/profile.dart';
+=======
+import 'package:tugasmandiripcs/Beranda/beranda_view.dart';
+import 'package:tugasmandiripcs/Inbox/inbox_view.dart';
+import 'package:tugasmandiripcs/Isi/profile.dart';
+import 'package:tugasmandiripcs/Pesanan/pesanan_view.dart';
+>>>>>>> 5e8e4ccfbea51abd04147584f6e22815284e84ab
 
 class A extends StatelessWidget {
   const A({super.key});
@@ -69,6 +76,9 @@ class A extends StatelessWidget {
                     categorijob(),
                     // deskripsijob(),
                     // itemjob(),
+                    // BerandaPage(),
+                    // PesananPage(),
+                    // InboxPage()
                   ]),
             ),
           ],
