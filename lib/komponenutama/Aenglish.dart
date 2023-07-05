@@ -3,12 +3,18 @@ import 'package:tugasmandiripcs/Beranda/beranda_view.dart';
 import 'package:tugasmandiripcs/Inbox/inbox_view.dart';
 import 'package:tugasmandiripcs/Isi/isiprofileenglish/profileenglish.dart';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import 'package:tugasmandiripcs/komponenutama/profile.dart';
 =======
 import 'package:tugasmandiripcs/Isi/profile.dart';
 import 'package:tugasmandiripcs/Landing/landing.dart';
 import 'package:tugasmandiripcs/Pesanan/pesanan_view.dart';
 >>>>>>> 5e8e4ccfbea51abd04147584f6e22815284e84ab
+=======
+
+import 'package:tugasmandiripcs/Landing/landing.dart';
+import 'package:tugasmandiripcs/Pesanan/pesanan_view.dart';
+>>>>>>> 51f148936d4e91308725829fe30aaed4baa23ca4
 
 class Aenglish extends StatelessWidget {
   const Aenglish({super.key});

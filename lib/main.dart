@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tugasmandiripcs/komponenutama/A.dart';
 import 'package:tugasmandiripcs/komponenutama/b.dart';
 import 'package:tugasmandiripcs/komponenutama/routes.dart';
 
