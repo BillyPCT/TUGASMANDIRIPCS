@@ -32,7 +32,7 @@ class Splashscreen extends StatelessWidget {
             ),
             InkWell(
               onDoubleTap: () {
-                Navigator.pushNamed(context, "/login");
+                Navigator.pushNamed(context, "/landingpage");
               },
               child: Container(
                 padding: EdgeInsets.symmetric(horizontal: 80, vertical: 16),
