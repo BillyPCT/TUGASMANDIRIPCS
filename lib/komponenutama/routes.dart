@@ -11,10 +11,12 @@ import 'package:tugasmandiripcs/Isi/isiprofileindo/biodataprofile.dart';
 import 'package:tugasmandiripcs/Isi/isiprofileindo/hubungi.dart';
 import 'package:tugasmandiripcs/Isi/isiprofileindo/notifikasi.dart';
 import 'package:tugasmandiripcs/Landing/landing.dart';
+import 'package:tugasmandiripcs/Login/login.dart';
 import 'package:tugasmandiripcs/komponenutama/A.dart';
 import 'package:tugasmandiripcs/komponenutama/Aenglish.dart';
 import 'package:tugasmandiripcs/komponenutama/b.dart';
 import 'package:tugasmandiripcs/komponenutama/b1.dart';
+import '../Login/Register.dart';
 import 'animasi.dart';
 
 class TempatRouters {
@@ -54,6 +56,10 @@ case '/b1':
         return SlideRightRoute(widget: b1()); 
 case '/landingpage':
         return SlideRightRoute(widget: LandingPage()); 
+case '/Register':
+        return SlideRightRoute(widget: Register()); 
+case '/login':
+        return SlideRightRoute(widget: LoginScreen()); 
 
       default:
         return _kesalahanroute();
