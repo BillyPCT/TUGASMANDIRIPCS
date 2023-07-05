@@ -29,7 +29,7 @@ class A extends StatelessWidget {
                     style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    "Assitance Part IN JOB APP",
+                    "Pet's Shop Store",
                     style: TextStyle(fontSize: 20),
                   )
                 ],
@@ -98,7 +98,7 @@ class categorijob extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                "Job",
+                "Popular",
                 style: TextStyle(
                     fontSize: 25,
                     fontWeight: FontWeight.bold,
@@ -135,7 +135,7 @@ class categorijob extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'Developer',
+                        'Makanan Kucing',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -158,7 +158,7 @@ class categorijob extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'Sopir',
+                        'Makanan Anjing',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -181,7 +181,7 @@ class categorijob extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'Sales',
+                        'Kucing',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -204,7 +204,7 @@ class categorijob extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'Security',
+                        'Anjing',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -227,7 +227,7 @@ class categorijob extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'CS Kantor',
+                        'Obat Hewan',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
