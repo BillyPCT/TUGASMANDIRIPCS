@@ -29,7 +29,7 @@ class A extends StatelessWidget {
                     style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    "Assitance Part IN JOB APP",
+                    "PETSHOP ANIMALS ZERO POINT ONE",
                     style: TextStyle(fontSize: 20),
                   )
                 ],
@@ -98,7 +98,7 @@ class categorijob extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                "Job",
+                "Tipe",
                 style: TextStyle(
                     fontSize: 25,
                     fontWeight: FontWeight.bold,
@@ -122,29 +122,29 @@ class categorijob extends StatelessWidget {
               spacing: 10,
               runSpacing: 10,
               children: [
-                GestureDetector(
-                  onTap: () {
+                // GestureDetector(
+                //   onTap: () {
                  
-                  },
-                  child: Container(
-                    width: 120,
-                    height: 40,
-                    decoration: BoxDecoration(
-                      color: Colors.blue,
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    child: Center(
-                      child: Text(
-                        'Developer',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
+                //   },
+                //   child: Container(
+                //     width: 120,
+                //     height: 40,
+                //     decoration: BoxDecoration(
+                //       color: Colors.blue,
+                //       borderRadius: BorderRadius.circular(10),
+                //     ),
+                //     child: Center(
+                //       child: Text(
+                //         'Developer',
+                //         style: TextStyle(
+                //           color: Colors.white,
+                //           fontSize: 16,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
                 GestureDetector(
                   onTap: () {
                   
@@ -158,7 +158,7 @@ class categorijob extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'Sopir',
+                        'Makanan Kering',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -181,7 +181,7 @@ class categorijob extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'Sales',
+                        'Makanan Semi Basah',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -204,30 +204,7 @@ class categorijob extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'Security',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-                GestureDetector(
-                  onLongPress: () {
-                  
-                  },
-                  child: Container(
-                    width: 120,
-                    height: 40,
-                    decoration: BoxDecoration(
-                      color: Colors.red,
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    child: Center(
-                      child: Text(
-                        'CS Kantor',
+                        'Makanan Basah',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -252,8 +229,8 @@ class categorijob extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               // Widget Image untuk menampilkan gambar
-              Image.network(
-                'https://storage.googleapis.com/go-merchant-production.appspot.com/uploads/2022/03/a50b5a97cd9ee91826449bc79f51ace0_fe9477fa96bd2cbfd6da352cca822dcd_compressed.jpg',
+              Image.asset(
+                'image/Makanan-Kucing-Kering.jpg',
                 width: 100,
                 height: 100,
                 fit: BoxFit.cover,
@@ -268,7 +245,7 @@ class categorijob extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Developer',
+                      'Makanan Kering',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 18,
@@ -278,7 +255,7 @@ class categorijob extends StatelessWidget {
                         height:
                             8), // memberikan jarak antara judul dan deskripsi
                     Text(
-                      'Seseorang yang memiliki tugas sebagai perancang software, website, ataupun aplikasi.',
+                      'Makanan kering dibuat dengan kandungan air yang sedikit agar tahan lama disimpan dan memiliki kerenyahan sehingga memiliki manfaat untuk membantu membersihkan gigi saat kucing mengunyah kibble makanan keringnya.',
                       style: TextStyle(fontSize: 16),
                     ),
                   ],
@@ -298,8 +275,8 @@ class categorijob extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               // Widget Image untuk menampilkan gambar
-              Image.network(
-                'https://awsimages.detik.net.id/community/media/visual/2020/06/13/menyetir-mobil.jpeg?w=700&q=90',
+              Image.asset(
+                'image/Makanan-Kucing-Semi-Moist.jpg',
                 width: 100,
                 height: 100,
                 fit: BoxFit.cover,
@@ -313,7 +290,7 @@ class categorijob extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Sopir',
+                      'Makanan Semi Basah',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 18,
@@ -323,7 +300,7 @@ class categorijob extends StatelessWidget {
                         height:
                             8), // memberikan jarak antara judul dan deskripsi
                     Text(
-                      ' Sopir (bahasa Prancis: chauffeur) atau pramudi adalah pengemudi profesional yang dibayar oleh majikan untuk mengemudi kendaraan bermotor.',
+                      'Makanan semi lembab adalah makanan kucing yang teksturnya lembut dan kenyal.',
                       style: TextStyle(fontSize: 16),
                     ),
                   ],
@@ -343,8 +320,8 @@ class categorijob extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               // Widget Image untuk menampilkan gambar
-              Image.network(
-                'https://crewdible-pub.s3.ap-southeast-1.amazonaws.com/blog/sales%20marketing%20adalah.jpg',
+              Image.asset(
+                'image/Makanan-Kucing-Basah.jpg',
                 width: 100,
                 height: 100,
                 fit: BoxFit.cover,
@@ -358,7 +335,7 @@ class categorijob extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Sales',
+                      'Makanan Basah',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 18,
@@ -368,7 +345,7 @@ class categorijob extends StatelessWidget {
                         height:
                             8), // memberikan jarak antara judul dan deskripsi
                     Text(
-                      'Sales adalah bagian dari aktivitas penjualan produk, barang, dan layanan yang dilakukan penjual ke pembeli.',
+                      'Makanan basah adalah makanan yang memiliki kandungan nutrisi yang lengkap dan seimbang, memiliki aroma lezat, namun tidak memiliki manfaat dalam membersihkan gigi karena teksturnya yang lembut.',
                       style: TextStyle(fontSize: 16),
                     ),
                   ],
@@ -377,97 +354,6 @@ class categorijob extends StatelessWidget {
             ],
           ),
         ),
-          SizedBox(height: 16),
-        Container(
-          padding: EdgeInsets.all(16),
-          decoration: BoxDecoration(
-            border: Border.all(color: Colors.grey),
-            borderRadius: BorderRadius.circular(10),
-          ),
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              // Widget Image untuk menampilkan gambar
-              Image.network(
-                'https://www.suksesindo.com/beta/assets/upload/image/security.jpg',
-                width: 100,
-                height: 100,
-                fit: BoxFit.cover,
-              ),
-              SizedBox(
-                  width:
-                      16), // memberikan jarak antara gambar dan teks deskripsi
-              // Widget Expanded untuk menampilkan deskripsi berita
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'Security',
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 18,
-                      ),
-                    ),
-                    SizedBox(
-                        height:
-                            8), // memberikan jarak antara judul dan deskripsi
-                    Text(
-                      'Satpam adalah satuan atau kelompok profesi pengemban fungsi kepolisian terbatas non yustisial yang dibentuk melalui perekrutan oleh badan usaha jasa',
-                      style: TextStyle(fontSize: 16),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
-          SizedBox(height: 16),
-        Container(
-          padding: EdgeInsets.all(16),
-          decoration: BoxDecoration(
-            border: Border.all(color: Colors.grey),
-            borderRadius: BorderRadius.circular(10),
-          ),
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              // Widget Image untuk menampilkan gambar
-              Image.network(
-                'https://seputarkarir.com/wp-content/uploads/2021/04/Customer-Service.png',
-                width: 100,
-                height: 100,
-                fit: BoxFit.cover,
-              ),
-              SizedBox(
-                  width:
-                      16), // memberikan jarak antara gambar dan teks deskripsi
-              // Widget Expanded untuk menampilkan deskripsi berita
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'Customer Service',
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 18,
-                      ),
-                    ),
-                    SizedBox(
-                        height:
-                            8), // memberikan jarak antara judul dan deskripsi
-                    Text(
-                      'Customer service memiliki tugas untuk memberikan pelayanan kepada pelanggan pada saat sebelum, selama, atau setelah pembelian produk atau layanan.',
-                      style: TextStyle(fontSize: 16),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
-        
       ],
     );
   }
