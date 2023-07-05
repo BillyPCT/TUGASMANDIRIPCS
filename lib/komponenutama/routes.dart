@@ -1,19 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:utspcs/Isi/isiprofileenglish/JobDesk.dart';
-import 'package:utspcs/Isi/isiprofileenglish/akunenglish.dart';
-import 'package:utspcs/Isi/isiprofileenglish/bahasainggris.dart';
-import 'package:utspcs/Isi/isiprofileenglish/help.dart';
-import 'package:utspcs/Isi/isiprofileindo/Bantuan.dart';
-import 'package:utspcs/Isi/isiprofileindo/HistoryPekerjaan.dart';
-import 'package:utspcs/Isi/isiprofileindo/akun.dart';
-import 'package:utspcs/Isi/isiprofileindo/bahasa.dart';
-import 'package:utspcs/Isi/isiprofileindo/biodataprofile.dart';
-import 'package:utspcs/Isi/isiprofileindo/hubungi.dart';
-import 'package:utspcs/Isi/isiprofileindo/notifikasi.dart';
-import 'package:utspcs/komponenutama/A.dart';
-import 'package:utspcs/komponenutama/Aenglish.dart';
-import 'package:utspcs/komponenutama/b.dart';
-import 'package:utspcs/komponenutama/b1.dart';
+import 'package:tugasmandiripcs/Isi/isiprofileenglish/JobDesk.dart';
+import 'package:tugasmandiripcs/Isi/isiprofileenglish/akunenglish.dart';
+import 'package:tugasmandiripcs/Isi/isiprofileenglish/bahasainggris.dart';
+import 'package:tugasmandiripcs/Isi/isiprofileenglish/help.dart';
+import 'package:tugasmandiripcs/Isi/isiprofileindo/Bantuan.dart';
+import 'package:tugasmandiripcs/Isi/isiprofileindo/HistoryPekerjaan.dart';
+import 'package:tugasmandiripcs/Isi/isiprofileindo/akun.dart';
+import 'package:tugasmandiripcs/Isi/isiprofileindo/bahasa.dart';
+import 'package:tugasmandiripcs/Isi/isiprofileindo/biodataprofile.dart';
+import 'package:tugasmandiripcs/Isi/isiprofileindo/hubungi.dart';
+import 'package:tugasmandiripcs/Isi/isiprofileindo/notifikasi.dart';
+import 'package:tugasmandiripcs/Landing/landing.dart';
+import 'package:tugasmandiripcs/komponenutama/A.dart';
+import 'package:tugasmandiripcs/komponenutama/Aenglish.dart';
+import 'package:tugasmandiripcs/komponenutama/b.dart';
+import 'package:tugasmandiripcs/komponenutama/b1.dart';
 import 'animasi.dart';
 
 class TempatRouters {
@@ -51,7 +52,8 @@ case '/splash':
         return SlideRightRoute(widget: Splashscreen()); 
 case '/b1':
         return SlideRightRoute(widget: b1()); 
-
+case '/landingpage':
+        return SlideRightRoute(widget: LandingPage()); 
 
       default:
         return _kesalahanroute();

@@ -13,14 +13,14 @@ class b1 extends StatelessWidget {
           children: [
             Container(
               child: Image.asset(
-                "assets/image/th.jpg",
+                "/image/th.jpg",
                 height: 300,
               ),
             ),
             Container(
               margin: EdgeInsets.only(top: 50),
               child: Text(
-                "let's go",
+                "Pet Shop",
                 style: TextStyle(
                     color: Colors.amber,
                     fontSize: 35,

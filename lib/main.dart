@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:utspcs/komponenutama/A.dart';
-import 'package:utspcs/komponenutama/b.dart';
-import 'package:utspcs/komponenutama/routes.dart';
+import 'package:tugasmandiripcs/komponenutama/b.dart';
+import 'package:tugasmandiripcs/komponenutama/routes.dart';
 
 void main() {
   runApp(const MyApp());

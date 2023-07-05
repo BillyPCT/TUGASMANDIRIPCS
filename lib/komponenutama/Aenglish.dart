@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:utspcs/Isi/isiprofileenglish/profileenglish.dart';
-import 'package:utspcs/Isi/profile.dart';
+import 'package:tugasmandiripcs/Beranda/beranda_view.dart';
+import 'package:tugasmandiripcs/Inbox/inbox_view.dart';
+import 'package:tugasmandiripcs/Isi/isiprofileenglish/profileenglish.dart';
+
+import 'package:tugasmandiripcs/Landing/landing.dart';
+import 'package:tugasmandiripcs/Pesanan/pesanan_view.dart';
 
 class Aenglish extends StatelessWidget {
   const Aenglish({super.key});
@@ -26,7 +30,7 @@ class Aenglish extends StatelessWidget {
                     style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    "Assitance Part IN JOB APP",
+                    "Pet Shop Animaly",
                     style: TextStyle(fontSize: 20),
                   )
                 ],
@@ -70,6 +74,7 @@ class Aenglish extends StatelessWidget {
                     categorijob(),
                     // deskripsijob(),
                     // itemjob(),
+                   
                   ]),
             ),
           ],
