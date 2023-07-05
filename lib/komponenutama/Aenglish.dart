@@ -30,7 +30,7 @@ class Aenglish extends StatelessWidget {
                     style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    "Pet Shop Animaly",
+                    "PETSHOP ANIMALS ZERO POINT ONE",
                     style: TextStyle(fontSize: 20),
                   )
                 ],
@@ -97,7 +97,7 @@ class categorijob extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                "Job",
+                "Type",
                 style: TextStyle(
                     fontSize: 25,
                     fontWeight: FontWeight.bold,
@@ -134,7 +134,7 @@ class categorijob extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'Developer',
+                        'Dry Food',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -157,7 +157,7 @@ class categorijob extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'Driver',
+                        'Semi-Moist Food',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -180,7 +180,7 @@ class categorijob extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'Sales',
+                        'Wet Food ',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -190,52 +190,52 @@ class categorijob extends StatelessWidget {
                     ),
                   ),
                 ),
-                GestureDetector(
-                  onTap: () {
+                // GestureDetector(
+                //   onTap: () {
                   
-                  },
-                  child: Container(
-                    width: 120,
-                    height: 40,
-                    decoration: BoxDecoration(
-                      color: Colors.purple,
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    child: Center(
-                      child: Text(
-                        'Security',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-                GestureDetector(
-                  onLongPress: () {
+                //   },
+                  // child: Container(
+                  //   width: 120,
+                  //   height: 40,
+                  //   decoration: BoxDecoration(
+                  //     color: Colors.purple,
+                  //     borderRadius: BorderRadius.circular(10),
+                  //   ),
+                  //   child: Center(
+                  //     child: Text(
+                  //       'Security',
+                  //       style: TextStyle(
+                  //         color: Colors.white,
+                  //         fontSize: 16,
+                  //         fontWeight: FontWeight.bold,
+                  //       ),
+                  //     ),
+                  //   ),
+                  // ),
+                // ),
+                // GestureDetector(
+                //   onLongPress: () {
                   
-                  },
-                  child: Container(
-                    width: 180,
-                    height: 40,
-                    decoration: BoxDecoration(
-                      color: Colors.red,
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                    child: Center(
-                      child: Text(
-                        'Customer Service',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
+                //   },
+                //   child: Container(
+                //     width: 180,
+                //     height: 40,
+                //     decoration: BoxDecoration(
+                //       color: Colors.red,
+                //       borderRadius: BorderRadius.circular(10),
+                //     ),
+                //     child: Center(
+                //       child: Text(
+                //         'Customer Service',
+                //         style: TextStyle(
+                //           color: Colors.white,
+                //           fontSize: 16,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
               ],
             ),
           ]),
@@ -251,8 +251,8 @@ class categorijob extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               // Widget Image untuk menampilkan gambar
-              Image.network(
-                'https://storage.googleapis.com/go-merchant-production.appspot.com/uploads/2022/03/a50b5a97cd9ee91826449bc79f51ace0_fe9477fa96bd2cbfd6da352cca822dcd_compressed.jpg',
+              Image.asset(
+                "image/Makanan-Kucing-Basah.jpg",
                 width: 100,
                 height: 100,
                 fit: BoxFit.cover,
@@ -267,7 +267,7 @@ class categorijob extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Developer',
+                      'Dry Food',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 18,
@@ -277,7 +277,7 @@ class categorijob extends StatelessWidget {
                         height:
                             8), // memberikan jarak antara judul dan deskripsi
                     Text(
-                      'Seseorang yang memiliki tugas sebagai perancang software, website, ataupun aplikasi.',
+                      'Dry Food is made with a small amount of water so that it lasts a long time in storage and has a crispness so that it has the benefit of helping clean teeth when cats chew their dry food kibble',
                       style: TextStyle(fontSize: 16),
                     ),
                   ],
@@ -297,8 +297,8 @@ class categorijob extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               // Widget Image untuk menampilkan gambar
-              Image.network(
-                'https://awsimages.detik.net.id/community/media/visual/2020/06/13/menyetir-mobil.jpeg?w=700&q=90',
+              Image.asset(
+                "image/Makanan-Kucing-Semi-Moist.jpg",
                 width: 100,
                 height: 100,
                 fit: BoxFit.cover,
@@ -312,7 +312,7 @@ class categorijob extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Driver',
+                      'Semi Moist Food',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 18,
@@ -322,7 +322,7 @@ class categorijob extends StatelessWidget {
                         height:
                             8), // memberikan jarak antara judul dan deskripsi
                     Text(
-                      ' Sopir (bahasa Prancis: chauffeur) atau pramudi adalah pengemudi profesional yang dibayar oleh majikan untuk mengemudi kendaraan bermotor.',
+                      ' Semi Moist is cat food that has a soft and chewy texture.',
                       style: TextStyle(fontSize: 16),
                     ),
                   ],
@@ -342,8 +342,8 @@ class categorijob extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               // Widget Image untuk menampilkan gambar
-              Image.network(
-                'https://crewdible-pub.s3.ap-southeast-1.amazonaws.com/blog/sales%20marketing%20adalah.jpg',
+              Image.asset(
+                "assets/image/Makanan-Kucing-Kering.jpg",
                 width: 100,
                 height: 100,
                 fit: BoxFit.cover,
@@ -357,7 +357,7 @@ class categorijob extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Sales',
+                      'Wet Food',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 18,
@@ -367,7 +367,7 @@ class categorijob extends StatelessWidget {
                         height:
                             8), // memberikan jarak antara judul dan deskripsi
                     Text(
-                      'Sales adalah bagian dari aktivitas penjualan produk, barang, dan layanan yang dilakukan penjual ke pembeli.',
+                      'Wet food is food that has a complete and balanced nutritional content, has the benefit of cleaning teeth because of its soft texture.',
                       style: TextStyle(fontSize: 16),
                     ),
                   ],
@@ -376,97 +376,6 @@ class categorijob extends StatelessWidget {
             ],
           ),
         ),
-          SizedBox(height: 16),
-        Container(
-          padding: EdgeInsets.all(16),
-          decoration: BoxDecoration(
-            border: Border.all(color: Colors.grey),
-            borderRadius: BorderRadius.circular(10),
-          ),
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              // Widget Image untuk menampilkan gambar
-              Image.network(
-                'https://www.suksesindo.com/beta/assets/upload/image/security.jpg',
-                width: 100,
-                height: 100,
-                fit: BoxFit.cover,
-              ),
-              SizedBox(
-                  width:
-                      16), // memberikan jarak antara gambar dan teks deskripsi
-              // Widget Expanded untuk menampilkan deskripsi berita
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'Security',
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 18,
-                      ),
-                    ),
-                    SizedBox(
-                        height:
-                            8), // memberikan jarak antara judul dan deskripsi
-                    Text(
-                      'Satpam adalah satuan atau kelompok profesi pengemban fungsi kepolisian terbatas non yustisial yang dibentuk melalui perekrutan oleh badan usaha jasa',
-                      style: TextStyle(fontSize: 16),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
-          SizedBox(height: 16),
-        Container(
-          padding: EdgeInsets.all(16),
-          decoration: BoxDecoration(
-            border: Border.all(color: Colors.grey),
-            borderRadius: BorderRadius.circular(10),
-          ),
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              // Widget Image untuk menampilkan gambar
-              Image.network(
-                'https://seputarkarir.com/wp-content/uploads/2021/04/Customer-Service.png',
-                width: 100,
-                height: 100,
-                fit: BoxFit.cover,
-              ),
-              SizedBox(
-                  width:
-                      16), // memberikan jarak antara gambar dan teks deskripsi
-              // Widget Expanded untuk menampilkan deskripsi berita
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'Customer Service',
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 18,
-                      ),
-                    ),
-                    SizedBox(
-                        height:
-                            8), // memberikan jarak antara judul dan deskripsi
-                    Text(
-                      'Customer service memiliki tugas untuk memberikan pelayanan kepada pelanggan pada saat sebelum, selama, atau setelah pembelian produk atau layanan.',
-                      style: TextStyle(fontSize: 16),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
-        
       ],
     );
   }
