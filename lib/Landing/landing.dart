@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:tugasmandiripcs/Beranda/beranda_view.dart';
+import 'package:tugasmandiripcs/Inbox/inbox_appbar.dart';
 import 'package:tugasmandiripcs/Inbox/inbox_view.dart';
+import 'package:tugasmandiripcs/Pesanan/pesanan_appbar.dart';
 import 'package:tugasmandiripcs/Pesanan/pesanan_view.dart';
 import 'package:tugasmandiripcs/constant.dart';
 import 'package:tugasmandiripcs/komponenutama/A.dart';
@@ -17,8 +19,8 @@ class _LandingPageState extends State<LandingPage> {
   List<Widget> _container = [
     A(),
     BerandaPage(),
-    PesananPage(),
-    InboxPage(),
+  PesananPage(),
+ InboxPage(),
   ];
 
   @override

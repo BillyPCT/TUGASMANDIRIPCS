@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class PesananAppBar extends AppBar {
-  PesananAppBar()
+class pesananAppBar extends AppBar {
+  pesananAppBar()
       : super(
             elevation: 0.25,
             backgroundColor: Colors.white,
@@ -17,7 +17,7 @@ class PesananAppBar extends AppBar {
             padding: EdgeInsets.only(top: 50.0, bottom: 100.0),
           ),
           Text(
-            "Pesanan",
+            "pesan",
             style: TextStyle(color: Colors.black, fontSize: 20.0),
           ),
           Container(
@@ -32,7 +32,7 @@ class PesananAppBar extends AppBar {
                       color: Colors.orangeAccent),
                   alignment: Alignment.centerRight,
                   child: Icon(
-                    Icons.shopping_bag_outlined,
+                    Icons.email_outlined,
                     color: Colors.black,
                     size: 16.0,
                   ),
