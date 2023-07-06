@@ -13,7 +13,7 @@ class Splashscreen extends StatelessWidget {
           children: [
             Container(
               child: Image.asset(
-                "/image/th.jpg",
+                "image/th.jpg",
                 height: 300,
               ),
             ),
