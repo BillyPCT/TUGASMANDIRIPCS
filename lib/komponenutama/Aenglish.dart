@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:tugasmandiripcs/Beranda/beranda_view.dart';
 import 'package:tugasmandiripcs/Inbox/inbox_view.dart';
 import 'package:tugasmandiripcs/Isi/isiprofileenglish/profileenglish.dart';
-
 import 'package:tugasmandiripcs/Landing/landing.dart';
 import 'package:tugasmandiripcs/Pesanan/pesanan_view.dart';
 
