@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tugasmandiripcs/Beranda/beranda_view.dart';
 import 'package:tugasmandiripcs/Inbox/inbox_view.dart';
 
+import 'package:tugasmandiripcs/ProdukPetShop/makanankucing.dart';
 import 'package:tugasmandiripcs/Pesanan/pesanan_view.dart';
 import 'package:tugasmandiripcs/komponenutama/profile.dart';
 
@@ -147,8 +148,15 @@ class categorijob extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: () {
-                  
-                  },
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => ProductDetailPage(
+          productName: 'Makanan Kucing',
+        ),
+      ),
+    );
+  },
                   child: Container(
                     width: 120,
                     height: 40,

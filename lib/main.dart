@@ -17,3 +17,20 @@ Widget build(BuildContext context) {
    );
  }
 }
+
+
+class Product {
+  final String imageUrl;
+  final String name;
+  final String price;
+  final String description;
+  bool isOrdered;
+
+  Product({
+    required this.imageUrl,
+    required this.name,
+    required this.price,
+    required this.description,
+    this.isOrdered = false,
+  });
+}
