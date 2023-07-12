@@ -15,6 +15,7 @@ import 'package:tugasmandiripcs/komponenutama/A.dart';
 import 'package:tugasmandiripcs/komponenutama/Aenglish.dart';
 import 'package:tugasmandiripcs/komponenutama/b.dart';
 import 'package:tugasmandiripcs/komponenutama/b1.dart';
+import '../untuk regitster/register.dart';
 import 'animasi.dart';
 
 class TempatRouters {
@@ -54,6 +55,8 @@ case '/b1':
         return SlideRightRoute(widget: b1()); 
 case '/landingpage':
         return SlideRightRoute(widget: LandingPage()); 
+case '/register':
+        return SlideRightRoute(widget: register()); 
 
       default:
         return _kesalahanroute();

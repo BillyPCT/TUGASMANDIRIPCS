@@ -30,13 +30,14 @@ class A extends StatelessWidget {
                     style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    "Assitance Part IN JOB APP",
+                    "Pet's Shop Store",
                     style: TextStyle(fontSize: 20),
                   )
                 ],
               ),
             ),
             Container(
+              
               margin: EdgeInsets.all(10),
               padding: EdgeInsets.symmetric(horizontal: 20),
               height: 50,
@@ -72,6 +73,7 @@ class A extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     categorijob(),
+                    
                     // deskripsijob(),
                     // itemjob(),
                     // BerandaPage(),
@@ -99,7 +101,7 @@ class categorijob extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                "Job",
+                "Popular",
                 style: TextStyle(
                     fontSize: 25,
                     fontWeight: FontWeight.bold,
@@ -136,7 +138,7 @@ class categorijob extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'Developer',
+                        'Makanan Kucing',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -159,7 +161,7 @@ class categorijob extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'Sopir',
+                        'Makanan Anjing',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -182,7 +184,7 @@ class categorijob extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'Sales',
+                        'Kucing',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -205,7 +207,7 @@ class categorijob extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'Security',
+                        'Anjing',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -228,7 +230,7 @@ class categorijob extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'CS Kantor',
+                        'Obat Hewan',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -254,7 +256,7 @@ class categorijob extends StatelessWidget {
             children: [
               // Widget Image untuk menampilkan gambar
               Image.network(
-                'https://storage.googleapis.com/go-merchant-production.appspot.com/uploads/2022/03/a50b5a97cd9ee91826449bc79f51ace0_fe9477fa96bd2cbfd6da352cca822dcd_compressed.jpg',
+               'https://o-cdn-cas.sirclocdn.com/parenting/images/Makanan_Kucing_Felibite.width-800.format-webp.webp',
                 width: 100,
                 height: 100,
                 fit: BoxFit.cover,
@@ -269,7 +271,7 @@ class categorijob extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Developer',
+                      'Makanan Kucing',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 18,
@@ -279,7 +281,7 @@ class categorijob extends StatelessWidget {
                         height:
                             8), // memberikan jarak antara judul dan deskripsi
                     Text(
-                      'Seseorang yang memiliki tugas sebagai perancang software, website, ataupun aplikasi.',
+'Makanan Kucing di Pet Shop dijamin berkualitas dan juga pakan kucing terbaik yang sudah melalui survei pemeriksaan kesehatan.',
                       style: TextStyle(fontSize: 16),
                     ),
                   ],
@@ -300,7 +302,7 @@ class categorijob extends StatelessWidget {
             children: [
               // Widget Image untuk menampilkan gambar
               Image.network(
-                'https://awsimages.detik.net.id/community/media/visual/2020/06/13/menyetir-mobil.jpeg?w=700&q=90',
+'https://cdn1.productnation.co/stg/sites/5/5e98f56047c70.jpeg',
                 width: 100,
                 height: 100,
                 fit: BoxFit.cover,
@@ -314,7 +316,7 @@ class categorijob extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Sopir',
+                      'Makanan Anjing',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 18,
@@ -324,7 +326,7 @@ class categorijob extends StatelessWidget {
                         height:
                             8), // memberikan jarak antara judul dan deskripsi
                     Text(
-                      ' Sopir (bahasa Prancis: chauffeur) atau pramudi adalah pengemudi profesional yang dibayar oleh majikan untuk mengemudi kendaraan bermotor.',
+'Makanan anjing yang kami jual murah loh, dan untuk kualitas nya nggak murahan ya karna kita jamin kalo produk tidak sesuai akan kembalikan 100% uang anda',
                       style: TextStyle(fontSize: 16),
                     ),
                   ],
@@ -359,7 +361,7 @@ class categorijob extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Sales',
+                      'Kucing',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 18,
@@ -369,7 +371,7 @@ class categorijob extends StatelessWidget {
                         height:
                             8), // memberikan jarak antara judul dan deskripsi
                     Text(
-                      'Sales adalah bagian dari aktivitas penjualan produk, barang, dan layanan yang dilakukan penjual ke pembeli.',
+"Selain kita menjual makanan kucing di pet s shop store kita jual beraneka jenis kucing bagi pecinta kucing, dan juga cat lovers akan mendapatkan perawatan di kucing di toko kami satu bulan ya.",
                       style: TextStyle(fontSize: 16),
                     ),
                   ],
@@ -404,7 +406,7 @@ class categorijob extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Security',
+                      'Anjing',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 18,
@@ -414,7 +416,7 @@ class categorijob extends StatelessWidget {
                         height:
                             8), // memberikan jarak antara judul dan deskripsi
                     Text(
-                      'Satpam adalah satuan atau kelompok profesi pengemban fungsi kepolisian terbatas non yustisial yang dibentuk melalui perekrutan oleh badan usaha jasa',
+"Bingung mau melihara anjing apa. Yuk dog lovers tanyakan kami di pet shop store kira-kira kamu cocok melihara hewan apa ya.",
                       style: TextStyle(fontSize: 16),
                     ),
                   ],
@@ -449,7 +451,7 @@ class categorijob extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Customer Service',
+                      'Obat hewan',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 18,
@@ -459,7 +461,7 @@ class categorijob extends StatelessWidget {
                         height:
                             8), // memberikan jarak antara judul dan deskripsi
                     Text(
-                      'Customer service memiliki tugas untuk memberikan pelayanan kepada pelanggan pada saat sebelum, selama, atau setelah pembelian produk atau layanan.',
+"Halo animals lovers, kalian bingung jika hewan kalian sakit mau pesan dimana ya obatnya, dan berapa ya biayanya, dan juga khawatir hewan yang kamu sayangi akan menderita, yuk konsultasikan pada kita ya.",
                       style: TextStyle(fontSize: 16),
                     ),
                   ],

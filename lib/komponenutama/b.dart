@@ -13,7 +13,7 @@ class Splashscreen extends StatelessWidget {
           children: [
             Container(
               child: Image.asset(
-                "/image/th.jpg",
+                "image/th.jpg",
                 height: 300,
               ),
             ),
@@ -32,7 +32,7 @@ class Splashscreen extends StatelessWidget {
             ),
             InkWell(
               onDoubleTap: () {
-                Navigator.pushNamed(context, "/landingpage");
+                Navigator.pushNamed(context, "/register");
               },
               child: Container(
                 padding: EdgeInsets.symmetric(horizontal: 80, vertical: 16),
