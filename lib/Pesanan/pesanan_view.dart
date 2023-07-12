@@ -60,9 +60,7 @@
           @override
           Widget build(BuildContext context) {
             return Scaffold(
-              appBar: AppBar(
-                title: Text('Note List'),
-              ),
+            
               //if not equal to 0 show data
               //else show text "no data available"
               body: _get.length != 0
