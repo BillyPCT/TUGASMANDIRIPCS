@@ -15,7 +15,7 @@ import 'package:tugasmandiripcs/komponenutama/A.dart';
 import 'package:tugasmandiripcs/komponenutama/Aenglish.dart';
 import 'package:tugasmandiripcs/komponenutama/b.dart';
 import 'package:tugasmandiripcs/komponenutama/b1.dart';
-import '../register.dart';
+import '../untuk regitster/register.dart';
 import 'animasi.dart';
 
 class TempatRouters {

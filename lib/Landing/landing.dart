@@ -16,7 +16,7 @@ class _LandingPageState extends State<LandingPage> {
   int _bottomNavCurrentIndex = 0;
   List<Widget> _container = [
     A(),
-    BerandaPage(),
+    // BerandaPage(),
     PesananPage(),
     InboxPage(),
   ];

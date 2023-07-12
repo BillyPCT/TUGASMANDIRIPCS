@@ -10,9 +10,9 @@ class Profile extends StatelessWidget {
       child: ListView(padding: EdgeInsets.zero, children: [
         UserAccountsDrawerHeader(
           accountName: Text(
-            "Billy Kristian",
+            "Admin",
           ),
-          accountEmail: Text("billykr67@gmail.com"),
+          accountEmail: Text("Admin@gmail.com"),
           currentAccountPicture: CircleAvatar(
             child: ClipOval(
               child: Image.asset(
@@ -69,7 +69,7 @@ class Profile extends StatelessWidget {
         ),
         ListTile(
           leading: Icon(Icons.desk),
-          title: Text("History Pekerjaan"),
+          title: Text("History Pemesanan"),
           trailing: Icon(
             Icons.arrow_forward,
           ),
