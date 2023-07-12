@@ -17,7 +17,7 @@ class biodataprofile extends StatelessWidget {
             ),
             SizedBox(height: 20),
             Text(
-              'Billy Kristian',
+              'Admin Pet Store',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
@@ -27,7 +27,7 @@ class biodataprofile extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Text(
-                '"Smart Assitance Aplication"',
+                '"PET SHOP STORE"',
                 style: TextStyle(
                   fontSize: 16,
                   color: Colors.grey[600],
@@ -45,7 +45,7 @@ class biodataprofile extends StatelessWidget {
                   SizedBox(height: 10),
                   ListTile(
                     leading: Icon(Icons.email),
-                    title: Text('billykr67@gmail.com'),
+                    title: Text('admin@gmail.com'),
                   ),
                    Divider(
                    color: Colors.grey[400],
