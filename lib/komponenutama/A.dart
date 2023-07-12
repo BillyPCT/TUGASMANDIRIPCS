@@ -5,6 +5,9 @@ import 'package:tugasmandiripcs/Inbox/inbox_view.dart';
 import 'package:tugasmandiripcs/Pesanan/pesanan_view.dart';
 import 'package:tugasmandiripcs/komponenutama/profile.dart';
 
+import '../ProdukPetShop/makanananjing.dart';
+import '../ProdukPetShop/makanankucing.dart';
+
 class A extends StatelessWidget {
   const A({super.key});
 
@@ -126,8 +129,15 @@ class categorijob extends StatelessWidget {
               children: [
                 GestureDetector(
                   onTap: () {
-                 
-                  },
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => ProductDetailPage(
+          productName: 'Makanan Kucing',
+        ),
+      ),
+    );
+  },
                   child: Container(
                     width: 120,
                     height: 40,
@@ -149,8 +159,15 @@ class categorijob extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: () {
-                  
-                  },
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => ProductDetail(
+          productName: 'Makanan Anjing',
+        ),
+      ),
+    );
+  },
                   child: Container(
                     width: 120,
                     height: 40,
